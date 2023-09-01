@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(204, 202, 202);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+
+
+table {
+    background-color: azure;
+    border-collapse: collapse;
+    width: 300px; /* Ancho total de la tabla */
+    margin: 0 auto; /* Centrar la tabla en la página */
+  }
+  td {
+    width: 100px; /* Ancho de cada casilla */
+    height: 100px; /* Altura de cada casilla */
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  img{
+    align-items: center;
+    text-align: center;
+    
+    width: 15%;
+    height: 10%;
+    max-width: 100px;
+    border-radius: 25%;
+  
+
+  }
+  h1{
+    margin-left:2%;
+  }
+
+ 
